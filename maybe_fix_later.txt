@@ -1,2 +1,0 @@
-- MKO in split and strtrim (doesnt matter for Moulinette but should be fixed later)
-- some not nice shit in substr (-> probably unnecessary)

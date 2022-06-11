@@ -6,15 +6,17 @@
 #    By: mmensing <mmensing@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/04 00:22:41 by mmensing          #+#    #+#              #
-#    Updated: 2022/06/06 22:13:15 by mmensing         ###   ########.fr        #
+#    Updated: 2022/06/08 15:36:27 by mmensing         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME= libft.a
+
 #define compiler and flags
 CC= gcc 
 CFLAGS= -Wall -Wextra -Werror
 HEADER= libft.h
+
 #Source Functions for the library
 MAND_SRC = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c ft_strlen.c \
          ft_memset.c ft_bzero.c ft_memcpy.c ft_memmove.c ft_strlcpy.c ft_strlcat.c \
@@ -28,6 +30,7 @@ MAND_SRC = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c ft_s
 BONUS_SRC = ft_lstnew.c ft_lstsize.c ft_lstadd_front.c ft_lstadd_back.c ft_lstdelone.c \
 			ft_lstclear.c ft_lstiter.c ft_lstlast.c \
 		   #ft_lstmap.c 
+		   
 # The object files after compiling
 MAND_OBS = $(MAND_SRC:%.c=%.o)
 
